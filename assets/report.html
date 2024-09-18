@@ -55,13 +55,18 @@
     <div class="main-content">
         <div class="container-fluid">
             <!-- Header -->
-            <div class="d-flex justify-content-between border-bottom pb-2">
-                <h2>Relatórios e Análises Financeiras</h2>
+            <div class="d-flex justify-content-between border-bottom pb-2 justify-content-evenly">
+                <h2>Relatórios e Análises Financeiras
+                    <i class="fas fa-bell icon-custom"></i>
+                    <i class="fas fa-cog icon-custom"></i>
+                </h2>
+            </div>
+
+            <div class="d-flex">
                 <label for="month"></label>
                 <input type="month" id="month" name="month" min="2024-01" value="2024-09" />
-                <div>
-                    <button class="btn btn-outline-danger"><i class="fas fa-file-pdf"></i> Baixar PDF</button>
-                </div>
+                <button class="btn btn-outline-danger"><i class="fas fa-download"></i>
+                    Baixar PDF</button>
             </div>
 
             <!-- Cards Section -->
